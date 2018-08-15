@@ -1,0 +1,92 @@
+ body {
+	text-align:center
+    background:#eee;
+	
+ }
+ 
+#top, #bottom, #left, #right {
+	background: #0c9447;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+ 
+
+
+a{
+	
+	color: #0c9447;
+	
+}
+
+.logo {
+	padding-top: 120px;
+	width: 400px;
+	margin:auto;
+	border:0px solid black;
+
+ }
+
+.photo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:0px solid black;
+    width: 200px;
+    height:auto;
+    padding-top: 30px;
+
+    
+}
+ 
+ 
+.kristina{
+	padding-top: 30px;
+	 font-size: 1.8em;
+	 text-align: center;
+	 font-family: 'Roboto Slab', serif;
+	 font-weight: 300;
+	 color: #0c9447;
+	 
+ }
+ 
+ 
+ .text{
+	 text-align: center;
+	 font-size: 1em;
+	 font-family: 'Roboto Slab', serif;
+	 font-weight: 300;
+	 color: #666667;
+	 width: 400px;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+	 
+ }
+ 
+ .green{
+	color: #0c9447; 
+	 }
+	 
+	 
+	 @media only screen and (max-width: 600px) {
+    .logo {
+	padding-top: 50px;
+	width: 400px;
+	margin:auto;
+	border:0px solid black;
+    }
+}
+ 
